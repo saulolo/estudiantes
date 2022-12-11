@@ -1,9 +1,12 @@
 package minticCicloJavaEstudiantes.modelo;
 
+import minticCicloJavaEstudiantes.controlador.Controlador;
+import minticCicloJavaEstudiantes.vista.Vista;
+
 import java.util.ArrayList;
 
 /* @author: Saulolo */
-public class Modelo {
+public class Modelo {//Creación de una clase
 
     /*
     EL MODELO: El que le dice a mi código, el paso a paso de lo que hay que hacer.
@@ -11,7 +14,7 @@ public class Modelo {
     //Paso 1: crear modelos.
     public static ArrayList<String> nombres = new ArrayList<String>();
     public static ArrayList<String> apellidos = new ArrayList<String>();
-    public static ArrayList<String> fechaNacimiento = new ArrayList<String>();
+    public static ArrayList<String> nacimiento = new ArrayList<String>();
     public static ArrayList<String> correo = new ArrayList<String>();
     public static ArrayList<Long> celular = new ArrayList<String>();
     public static ArrayList<String> programa = new ArrayList<String>();

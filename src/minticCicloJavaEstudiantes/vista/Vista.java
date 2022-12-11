@@ -1,5 +1,7 @@
 package minticCicloJavaEstudiantes.vista;
 
+import minticCicloJavaEstudiantes.modelo.Modelo;
+
 /* @author: Saulolo */
 public class Vista {
 
@@ -18,8 +20,15 @@ public class Vista {
         System.out.println("6. Salir");
     }
 
-    public static String verDirectorio() {
-        return " ";
+    public static void mostrar(int indice) {
+        
+        System.out.println("Información del estudiante: ");
+        System.out.println("Nombres: " + Modelo.nombres.get(indice));
+        System.out.println("Apellidos: " + Modelo.apellidos.get(indice));
+        System.out.println("Fecha de nacimiento: " + Modelo.nacimiento.get(indice));
+        System.out.println("Correo Electrónico: " + Modelo.correo.get(indice));
+        System.out.println("Número celular: " + Modelo.celular.get(indice));
+        System.out.println("Programa de interés: " + Modelo.programa.get(indice));
+        
     }
-
 }
